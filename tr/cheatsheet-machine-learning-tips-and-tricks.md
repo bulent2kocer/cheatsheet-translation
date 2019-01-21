@@ -1,180 +1,180 @@
 **1. Machine Learning tips and tricks cheatsheet**
 
-&#10230;
+&#10230;Makina Öğrenmesi İpuçları ve Tüyolar Notları
 
 <br>
 
 **2. Classification metrics**
 
-&#10230;
+&#10230;Sınıflandırma ölçütleri
 
 <br>
 
 **3. In a context of a binary classification, here are the main metrics that are important to track in order to assess the performance of the model.**
 
-&#10230;
+&#10230;İkili bir sınıflandırma durumunda, modelin performansının değerlendirilmesi için takip edilmesi önemli ana ölçütler şunlardır.
 
 <br>
 
 **4. Confusion matrix ― The confusion matrix is used to have a more complete picture when assessing the performance of a model. It is defined as follows:**
 
-&#10230;
+&#10230;Karışıklık matrisi bir modelin performansını değerlendirirken daha bütün bir resim elde etmek için kullanılır. Aşağıdaki şekilde tanımlanır:
 
 <br>
 
 **5. [Predicted class, Actual class]**
 
-&#10230;
+&#10230;[Beklenen, Gözlenen]
 
 <br>
 
 **6. Main metrics ― The following metrics are commonly used to assess the performance of classification models:**
 
-&#10230;
+&#10230;Ana Ölçütler - Aşağıdaki ölçütler yaygın olarak sınıflandırma modellerinin performansını değerlendirmek için kullanılır:
 
 <br>
 
 **7. [Metric, Formula, Interpretation]**
 
-&#10230;
+&#10230;[Ölçüt, Formül, Yorumlama]
 
 <br>
 
 **8. Overall performance of model**
 
-&#10230;
+&#10230;Modelin genel performansı
 
 <br>
 
 **9. How accurate the positive predictions are**
 
-&#10230;
+&#10230;Olumlu tahminler ne kadar yanlışsız
 
 <br>
 
 **10. Coverage of actual positive sample**
 
-&#10230;
+&#10230;Güncel olumlu örneğin kapsamı
 
 <br>
 
 **11. Coverage of actual negative sample**
 
-&#10230;
+&#10230;Güncel olumsuz örneğin kapsamı
 
 <br>
 
 **12. Hybrid metric useful for unbalanced classes**
 
-&#10230;
+&#10230;Dengelenmemiş sınıflar için kullanışlı olan hibrit ölçüt
 
 <br>
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230;
+&#10230;Alıcı işlem eğrisi, ROC olarak da bilinir, TPR'nin FPR'ye karş eşik değeri değiştirerek çizilen grafiğidir. Bu ölçütler aşağıdaki tabloda toplanmıştır:
 
 <br>
 
 **14. [Metric, Formula, Equivalent]**
 
-&#10230;
+&#10230;[Ölçüt, Formül, Eşdeğeri]
 
 <br>
 
 **15. AUC ― The area under the receiving operating curve, also noted AUC or AUROC, is the area below the ROC as shown in the following figure:**
 
-&#10230;
+&#10230;Alış işlem eğrisinin (AİE) altında kalan alan, AUC veya AUROC olarak da bilinir, aşağıdaki şekilde gösterilen AİE'nin altında kalan alandır.
 
 <br>
 
 **16. [Actual, Predicted]**
 
-&#10230;
+&#10230;[Gözlenen, Beklenen]
 
 <br>
 
 **17. Basic metrics ― Given a regression model f, the following metrics are commonly used to assess the performance of the model:**
 
-&#10230;
+&#10230;Temel ölçütler - Bir regresyon modeli f için aşağıdaki ölçütler model performansını değerlendirmek için yaygın olarak kullanılır. 
 
 <br>
 
 **18. [Total sum of squares, Explained sum of squares, Residual sum of squares]**
 
-&#10230;
+&#10230;[Kareler toplamının toplamı, Karelerin açıklanabilir toplamı, Karelerin kalıntılar toplamı]
 
 <br>
 
 **19. Coefficient of determination ― The coefficient of determination, often noted R2 or r2, provides a measure of how well the observed outcomes are replicated by the model and is defined as follows:**
 
-&#10230;
+&#10230;Belirleme katsayısı - Belirleme katsayısı, sıklıkla R2 veya r2 olarak görülür, model tarafından gözlenen çıktıların ne kadar doğru olarak türetildiğinin bir ölçüsünü sağlar ve aşağıdaki şekilde tanımlanır:
 
 <br>
 
 **20. Main metrics ― The following metrics are commonly used to assess the performance of regression models, by taking into account the number of variables n that they take into consideration:**
 
-&#10230;
+&#10230;Ana ölçütler - Aşağıdaki ölçütler regresyon modellerinin performansını değerlendirmek için modele konu olan değişken sayısı n'i hesaba katarak yaygın olarak kullanılır. 
 
 <br>
 
 **21. where L is the likelihood and ˆσ2 is an estimate of the variance associated with each response.**
 
-&#10230;
+&#10230;L olasılık, ˆσ2 her bir cevaba ilişkin varyans tahmini olmak üzere.
 
 <br>
 
 **22. Model selection**
 
-&#10230;
+&#10230;Model seçimi
 
 <br>
 
 **23. Vocabulary ― When selecting a model, we distinguish 3 different parts of the data that we have as follows:**
 
-&#10230;
+&#10230; Sözlük - Bir model seçerken, elimizdeki verinin 3 parçasını ayrı tutarız. Bunlar:
 
 <br>
 
 **24. [Training set, Validation set, Testing set]**
 
-&#10230;
+&#10230;[Eğitim kümesi, Geçerli kılma kümesi, Test kümesi]
 
 <br>
 
 **25. [Model is trained, Model is assessed, Model gives predictions]**
 
-&#10230;
+&#10230;[Model eğitildi, Model değerlendirildi, Model öngörüleri hesapladı]
 
 <br>
 
 **26. [Usually 80% of the dataset, Usually 20% of the dataset]**
 
-&#10230;
+&#10230;[Genellikle veri kümesinin %80'i, Genellikle veri kümesinin %20'si]
 
 <br>
 
 **27. [Also called hold-out or development set, Unseen data]**
 
-&#10230;
+&#10230;[Hariç tutulan veya geliştirme kümesi, Görülmemiş veri]
 
 <br>
 
 **28. Once the model has been chosen, it is trained on the entire dataset and tested on the unseen test set. These are represented in the figure below:**
 
-&#10230;
+&#10230;Bir kere model seçildi mi, bütün bir veri kümesi üzerinde çalıştırılır ve görülmemiş test kümesi üzerinde test edilir. Bunlar aşağıdaki şekilde resmedilmiştir.
 
 <br>
 
 **29. Cross-validation ― Cross-validation, also noted CV, is a method that is used to select a model that does not rely too much on the initial training set. The different types are summed up in the table below:**
 
-&#10230;
+&#10230;Çapraz doğrulama - Çapraz doğrulama (CV) fazlaca başlangıçtaki eğitim veri kümesine dayanmayan bir model seçimi için kulllanılan bir yöntemdir. Çeşitli türleri aşağıdaki tabloda toplanmıştır:
 
 <br>
 
 **30. [Training on k−1 folds and assessment on the remaining one, Training on n−p observations and assessment on the p remaining ones]**
 
-&#10230;
+&#10230;[k-1 kat eğitim ve kalan bir tanesinin değerlendirmesi, n-p gözlem üzerinden eğitim ve p adet kalanın değerlendirilmesi]
 
 <br>
 
