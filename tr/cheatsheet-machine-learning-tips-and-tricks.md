@@ -72,7 +72,7 @@
 
 **13. ROC ― The receiver operating curve, also noted ROC, is the plot of TPR versus FPR by varying the threshold. These metrics are are summed up in the table below:**
 
-&#10230;Alıcı işlem eğrisi, ROC olarak da bilinir, TPR'nin FPR'ye karş eşik değeri değiştirerek çizilen grafiğidir. Bu ölçütler aşağıdaki tabloda toplanmıştır:
+&#10230;Alıcı çalışma eğrisi, ROC olarak da bilinir, TPR'nin FPR'ye karş eşik değeri değiştirerek çizilen grafiğidir. Bu ölçütler aşağıdaki tabloda toplanmıştır:
 
 <br>
 
@@ -84,7 +84,7 @@
 
 **15. AUC ― The area under the receiving operating curve, also noted AUC or AUROC, is the area below the ROC as shown in the following figure:**
 
-&#10230;Alış işlem eğrisinin (AİE) altında kalan alan, AUC veya AUROC olarak da bilinir, aşağıdaki şekilde gösterilen AİE'nin altında kalan alandır.
+&#10230;Alış çalışma eğrisinin (AÇE) altında kalan alan, AUC veya AUROC olarak da bilinir, aşağıdaki şekilde gösterilen AİE'nin altında kalan alandır.
 
 <br>
 
@@ -180,106 +180,105 @@
 
 **31. [Generally k=5 or 10, Case p=1 is called leave-one-out]**
 
-&#10230;
+&#10230;[Genellikle k=5 veya 10, p=1 olması halinde "birini dışarda bırak" durumu]
 
 <br>
 
 **32. The most commonly used method is called k-fold cross-validation and splits the training data into k folds to validate the model on one fold while training the model on the k−1 other folds, all of this k times. The error is then averaged over the k folds and is named cross-validation error.**
 
-&#10230;
-
+&#10230;En genel kullanılan yöntem, k-kat çapraz geçerleme olarak adlandırılır ve modeli bir katta geçerli kılıp, k-1 diğer katlarda eğitirken eğitim verisini k defa böler. Bunu k defa tekrar eder. Hatanın k kat boyunca ortalaması alınır ve bu çapraz geçerleme hatası olarak adlandırılır.
 <br>
 
 **33. Regularization ― The regularization procedure aims at avoiding the model to overfit the data and thus deals with high variance issues. The following table sums up the different types of commonly used regularization techniques:**
 
-&#10230;
+&#10230;Düzenlileştirme - Düzenlileştirme prosedürü modelin veriye aşırı uyum sağlamasına mani olmayı amaçlar ve bu nedenle yüksek varyans konularıyla ilgilenir. Aşağıdaki tabloda genel olarak kullanılan düzenlileştirme tekniklerinin farklı türleri toplanmıştır.
 
 <br>
 
 **34. [Shrinks coefficients to 0, Good for variable selection, Makes coefficients smaller, Tradeoff between variable selection and small coefficients]**
 
-&#10230;
+&#10230;[Katsayıyı 0'a çeker, Değişken seçimi için iyi, Katsayıyı küçültür, Değişken seçimi ve küçük katsayı arasında değiş-tokuş tercihi yapma]
 
 <br>
 
 **35. Diagnostics**
 
-&#10230;
+&#10230;Teşhisler
 
 <br>
 
 **36. Bias ― The bias of a model is the difference between the expected prediction and the correct model that we try to predict for given data points.**
 
-&#10230;
+&#10230;Ön eğilim - Ön eğilim bir modelin beklenen tahmini ve eldeki veri noktalarından tahmin etmeye çalıştığımız doğru model arasındaki farktır.
 
 <br>
 
 **37. Variance ― The variance of a model is the variability of the model prediction for given data points.**
 
-&#10230;
+&#10230;Varyans - Bir modelin varyansı modelin eldeki veri noktaları için değişebilirliğidir. 
 
 <br>
 
 **38. Bias/variance tradeoff ― The simpler the model, the higher the bias, and the more complex the model, the higher the variance.**
 
-&#10230;
+&#10230;Ön eğilim/Varyans değiş-tokuş tercihi - Model basitleştikçe ön eğilim artar, model karmaşıklaştıkça varyans artar.
 
 <br>
 
 **39. [Symptoms, Regression illustration, classification illustration, deep learning illustration, possible remedies]**
 
-&#10230;
+&#10230;[Belirtiler, Regresyon çizimi, sınıflandırma çizimi, derin öğrenme çizimi, olası çözüm]
 
 <br>
 
 **40. [High training error, Training error close to test error, High bias, Training error slightly lower than test error, Very low training error, Training error much lower than test error, High variance]**
 
-&#10230;
+&#10230;[Yüksek eğitim haası, Eğitim hatası test hatasına yakın, Yüksek ön eğilim, Eğitim hatası test hatasından biraz daha az, Çok az eğitim hatası, Eğitim hatası test hatasından çok daha az, Yüksek varyans ]
 
 <br>
 
 **41. [Complexify model, Add more features, Train longer, Perform regularization, Get more data]**
 
-&#10230;
+&#10230;[Modeli karmaşıklaştır, Başka özellik ekleme, Daha uzun eğitme, Düzenlileştirme uygulama, Daha fazla veri]
 
 <br>
 
 **42. Error analysis ― Error analysis is analyzing the root cause of the difference in performance between the current and the perfect models.**
 
-&#10230;
+&#10230;Hata analizi - Hata analizi mevcut ve hatasız modellerin performansları arasındaki farkın kök nedeninin analiz edilmesidir. 
 
 <br>
 
 **43. Ablative analysis ― Ablative analysis is analyzing the root cause of the difference in performance between the current and the baseline models.**
 
-&#10230;
+&#10230;Ayrılma analizi - Ayrılma analizi mevcut ve hatasız anahat modellerin performansları arasındaki farkın kök nedeninin analiz edilmesidir. 
 
 <br>
 
 **44. Regression metrics**
 
-&#10230;
+&#10230;Regresyon ölçütleri
 
 <br>
 
 **45. [Classification metrics, confusion matrix, accuracy, precision, recall, F1 score, ROC]**
 
-&#10230;
+&#10230;[Sınıflandırma ölçütleri, karmaşıklaştırma matrisi, Kesinlik, Keskinlik, Hatırlama, F1 skoru, Alıcı Çalışma Eğrisi]
 
 <br>
 
 **46. [Regression metrics, R squared, Mallow's CP, AIC, BIC]**
 
-&#10230;
+&#10230;[Regresyon ölçütleri, R kare, Mallow CP, Akaike Bilgi Ölçütü, Bayesian Bilgi Ölçütü]
 
 <br>
 
 **47. [Model selection, cross-validation, regularization]**
 
-&#10230;
+&#10230;[Model seçimi, çapraz geçerleme, düzenlileştirme]
 
 <br>
 
 **48. [Diagnostics, Bias/variance tradeoff, error/ablative analysis]**
 
-&#10230;
+&#10230;[Teşhisler, Ön eğilim / varyans değiş tokuşu, hata/ayrılma analizi]
